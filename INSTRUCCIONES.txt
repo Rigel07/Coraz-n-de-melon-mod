@@ -1,0 +1,17 @@
+COMO OBTENER EL .JAR DE CORAZON DE MELON (GitHub, sin instalar nada)
+
+1. Descomprime este zip. Veras estas cosas: .github, src, build.gradle, settings.gradle, gradle.properties...
+   (La carpeta ".github" puede estar oculta. En Mac: Cmd+Shift+. para verla.)
+2. En GitHub: New repository (publico o privado) y ponle un nombre.
+3. En el repositorio nuevo: "uploading an existing file".
+4. Arrastra TODO el contenido descomprimido (las carpetas .github y src incluidas), NO el zip.
+   En la raiz del repositorio deben verse directamente: .github, src, build.gradle, settings.gradle.
+5. Pulsa "Commit changes".
+6. Ve a la pestaña "Actions". Se ejecuta "Build" solo (tarda 3-6 minutos). Si no, "Run workflow".
+7. Cuando salga en verde, entra en el Build y abajo en "Artifacts" descarga "corazon-de-melon".
+8. Descomprime ese zip: dentro esta el .jar. Ese .jar es el mod.
+
+PARA JUGAR
+- Minecraft 1.20.1 con Forge 47.3.0 o superior (Java 17).
+- Mete el .jar en la carpeta mods del perfil de Forge.
+- Si el Build sale en rojo, copia el error de "Compilar el mod" y se lo pasas a Claude.
